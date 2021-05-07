@@ -30,3 +30,31 @@ MacOS yaratılan instancea değil structa aittir.
 Soru: LoadView'ı araştırınız.
 
 Cevap: LoadView controllerın yönettiği bir view yaratmak için kullanılır. Storyboard kullanmadan viewımızı sadece programmaticaly yaratıyorsak kullanımı öneriliyor aksi takdirde önerilmiyor.
+
+
+# Searchbar Customcell Homework
+
+| 1.Resim  | 2.Resim |3. Resim |
+| ------------- | ------------- |------------- |
+| ![Simulator Screen Shot - iPhone 11 - 2021-05-08 at 00 31 46](https://user-images.githubusercontent.com/33404285/117510544-ef50c280-af94-11eb-9d5e-8eaec3f389bf.png) | ![Simulator Screen Shot - iPhone 11 - 2021-05-08 at 00 31 56](https://user-images.githubusercontent.com/33404285/117510552-f24bb300-af94-11eb-8311-8733668bb2d8.png)  |![Simulator Screen Shot - iPhone 11 - 2021-05-08 at 00 32 06](https://user-images.githubusercontent.com/33404285/117510556-f4157680-af94-11eb-814d-a9798245b2c4.png)  |
+
+
+
+# Busticket App Homework
+https://user-images.githubusercontent.com/33404285/117511080-d399ec00-af95-11eb-9156-78018a445c39.mp4
+
+# UIPagecontrol Homework
+
+https://user-images.githubusercontent.com/33404285/117511153-f3c9ab00-af95-11eb-8c1a-b5109cbec95d.mp4
+
+# Mapkit App Homework
+
+
+https://user-images.githubusercontent.com/33404285/117511770-fd9fde00-af96-11eb-9bda-798ea5364e63.mov
+
+
+
+
+
+
+
