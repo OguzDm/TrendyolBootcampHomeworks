@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PageControllerHomework" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ePk-dp-gJb">
+                                <rect key="frame" x="146" y="703" width="122" height="28"/>
+                                <color key="pageIndicatorTintColor" red="0.54509803921568623" green="0.3701398373" blue="0.51514315610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3PC-qw-la9" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="82" y="323" width="250" height="250"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Rf9-i5-G5c"/>
+                                    <constraint firstAttribute="height" constant="250" id="nlH-vx-D2A"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAw-g0-IdT">
+                                <rect key="frame" x="82" y="594" width="250" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="3No-Hw-eFr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <color key="textColor" red="0.2344646454" green="0.3245756924" blue="0.37501052019999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFe-2G-qoT">
+                                <rect key="frame" x="82" y="785" width="250" height="41"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="21"/>
+                                <state key="normal" title="Skip">
+                                    <color key="titleColor" red="0.93323493000000002" green="0.93339163059999997" blue="0.93321293589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="skipButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nuu-EN-Dde"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.83983534569999996" green="0.69236505029999995" blue="0.69580996039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WFe-2G-qoT" firstAttribute="top" secondItem="ePk-dp-gJb" secondAttribute="bottom" constant="54" id="BII-na-rMb"/>
+                            <constraint firstItem="ePk-dp-gJb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="146" id="IE9-jP-Te1"/>
+                            <constraint firstItem="UAw-g0-IdT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="P9K-fI-wN0"/>
+                            <constraint firstItem="ePk-dp-gJb" firstAttribute="top" secondItem="UAw-g0-IdT" secondAttribute="bottom" constant="18" id="UDd-iQ-aOx"/>
+                            <constraint firstItem="3PC-qw-la9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bkg-Gv-Nl8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UAw-g0-IdT" secondAttribute="trailing" constant="82" id="ceV-OW-LQP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ePk-dp-gJb" secondAttribute="trailing" constant="146" id="kMn-8S-S7q"/>
+                            <constraint firstItem="WFe-2G-qoT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="m01-sl-dXo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WFe-2G-qoT" secondAttribute="bottom" constant="36" id="xKt-Vp-RSn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WFe-2G-qoT" secondAttribute="trailing" constant="82" id="xet-A6-a6B"/>
+                            <constraint firstItem="3PC-qw-la9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ysy-Vy-mNj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="3PC-qw-la9" id="Hye-bj-SYb"/>
+                        <outlet property="customPageControl" destination="ePk-dp-gJb" id="E3x-iT-Rdw"/>
+                        <outlet property="skipButton" destination="WFe-2G-qoT" id="9zK-8M-6Fc"/>
+                        <outlet property="textLabel" destination="UAw-g0-IdT" id="2Wj-Y6-o8z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

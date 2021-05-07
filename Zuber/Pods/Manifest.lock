@@ -1,0 +1,20 @@
+PODS:
+  - BottomPopup (0.6.0)
+  - FloatingPanel (2.3.0)
+
+DEPENDENCIES:
+  - BottomPopup
+  - FloatingPanel
+
+SPEC REPOS:
+  trunk:
+    - BottomPopup
+    - FloatingPanel
+
+SPEC CHECKSUMS:
+  BottomPopup: 1d5649a3b29396238f0e8f3c82075a7bfcf37ba7
+  FloatingPanel: 373478513a197cf140abd219ca9a9c049967332b
+
+PODFILE CHECKSUM: fcfb093e58c586b94b94b637c99d1cbfc6eb92ac
+
+COCOAPODS: 1.10.0
