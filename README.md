@@ -26,3 +26,7 @@ Cevap: Static properties tanımlandıkları yerde shared bir propertie oluşturu
 MacOS yaratılan instancea değil structa aittir.
 
 ![Ekran Resmi 2021-05-02 01 41 51](https://user-images.githubusercontent.com/33404285/116796738-9f32b580-aae7-11eb-9a2a-0299818974dc.png)
+
+Soru: LoadView'ı araştırınız.
+
+Cevap: LoadView controllerın yönettiği bir view yaratmak için kullanılır. Storyboard kullanmadan viewımızı sadece programmaticaly yaratıyorsak kullanımı öneriliyor aksi takdirde önerilmiyor.
