@@ -52,7 +52,7 @@ https://user-images.githubusercontent.com/33404285/117511153-f3c9ab00-af95-11eb-
 
 https://user-images.githubusercontent.com/33404285/117511770-fd9fde00-af96-11eb-9bda-798ea5364e63.mov
 
-# Tabbar and Coredata Homework ( CoreData delete,insert and retrieve image from Coredata, rounded middle tabbar)
+# Tabbar and Coredata Homework VirtualPet ( CoreData delete,insert and retrieve image from Coredata, rounded middle tabbar)
 
 https://user-images.githubusercontent.com/33404285/118216734-bb860900-b47c-11eb-973a-e46a6bd26295.mp4
 
