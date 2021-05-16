@@ -31,6 +31,10 @@ Soru: LoadView'ı araştırınız.
 
 Cevap: LoadView controllerın yönettiği bir view yaratmak için kullanılır. Storyboard kullanmadan viewımızı sadece programmaticaly yaratıyorsak kullanımı öneriliyor aksi takdirde önerilmiyor.
 
+Soru: CliptoBound vs MasktoBound araştırınız
+
+Cevap: İkisi arasındaki en teml fark Masktobound'un layerlar için kullanılması ve clipToBound'un view ve subview ilişkisi için kullanılması. Pratikte ikiside aynı işi yapmaktadır.
+
 
 # Searchbar Customcell Homework
 
